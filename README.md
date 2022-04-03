@@ -17,6 +17,6 @@
 
 Application is designed using ~~dirty~~ clean architecture
 
-You can download the image and open it in [draw.io]: https://app.diagrams.net/
+You can download the image and open it in [draw.io](https://app.diagrams.net/)
 
 <img src="https://user-images.githubusercontent.com/56515163/161436981-0232857e-8f0b-4ffd-87ca-3ad9c769fda1.png" height = "1000">
