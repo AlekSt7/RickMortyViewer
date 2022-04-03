@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--For rounded ImageView-->
+    <style name="SpecifiCornerRounded" parent="">
+        <item name="cornerSizeTopLeft">@dimen/corner</item>
+        <item name="cornerFamilyTopLeft">rounded</item>
+        <item name="cornerSizeBottomLeft">@dimen/corner</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/corner</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerSizeBottomRight">@dimen/corner</item>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+
+    <!--Filter bottom sheet dialog-->
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">@dimen/bottom_sheet_dialog_height</item>
+    </style>
+    
+</resources>

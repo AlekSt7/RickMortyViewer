@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v23/launch_screen.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/character_row_corner.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/circle.xml" value="0.3555" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/image_rounded_corner.xml" value="0.2445" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/retry_button.xml" value="0.2535" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable-v24/rounded_corner.xml" value="0.3555" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/app_transparent_background.xml" value="0.2435" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/baackground_corner.xml" value="0.241" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/background_corner.xml" value="0.2445" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.28" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/button.xml" value="0.2535" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ds_pricker_box.xml" value="0.2535" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ds_selector.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/episode_row.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/gradient_1.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/gradient_2.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/gradient_3.xml" value="0.273" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2415" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.2485" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.2485" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_refresh_24.xml" value="0.2535" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_reply_24.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.2415" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_baseline_style_24.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/ic_svgviewer_output.xml" value="0.2445" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/launch_screen.xml" value="0.2455" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/picker_view_baccgorund.xml" value="0.3635" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/picker_view_background.xml" value="0.1935" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/splash_screep.xml" value="0.2445" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/drawable/toolbar_background_corner.xml" value="0.2445" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout-v23/character_card.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout-v23/episode_row.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/app_bar_main.xml" value="0.1" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/bottom_sheet_filter_layout.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/character_card.xml" value="0.25" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/character_card_fragment.xml" value="0.25" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/character_carf.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/character_list_row.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/character_row.xml" value="0.1" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/characters_list_fragment.xml" value="0.33" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/episode_row.xml" value="0.33" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/favourites_list_fragment.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/loading_character_card.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/loading_state_row.xml" value="0.23489583333333333" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/layout/main_list.xml" value="0.3625" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/menu/main_menu.xml" value="0.5" />
+        <entry key="..\:/Users/aleks/AndroidStudioProjects/RickMortyViewer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.209" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ds="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/bottom_sheet_dialog_height"
+    android:background="@drawable/bottom_sheet_background">
+
+    <View
+        android:layout_width="25dp"
+        android:layout_height="5dp"
+        android:background="@drawable/picker_view_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/title_3"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/filter_title"/>
+
+    <com.ramotion.directselect.DSListView
+        android:id="@+id/ds_picker_status"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bg_height"
+        android:paddingStart="@dimen/dialog_margin"
+        android:paddingEnd="@dimen/dialog_margin"
+        android:layout_gravity="bottom"
+        android:nestedScrollingEnabled="true"
+        android:background="?android:windowBackground"
+        android:visibility="invisible"
+        ds:cell_font_size="8sp"
+        ds:data_array="@array/status"
+        ds:picker_box_view="@id/picker_box_status"
+        ds:scale_animations="true"
+        ds:scale_animations_factor="1.3"
+        ds:scale_animations_pivot_center="false"
+        ds:selected_index="2"
+        ds:selector_background="@drawable/ds_selector" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dialog_margin"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90dp"
+        android:text="@string/filter_status"/>
+
+    <com.ramotion.directselect.DSDefaultPickerBox
+        android:id="@+id/picker_box_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="@dimen/dialog_margin"
+        android:layout_marginEnd="@dimen/dialog_margin"
+        android:background="@drawable/ds_pricker_box"
+        android:padding="15dp" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center|end"
+            android:src="@drawable/scroll"/>
+
+    </com.ramotion.directselect.DSDefaultPickerBox>
+
+    <com.ramotion.directselect.DSListView
+        android:id="@+id/ds_picker_gender"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_bg_height"
+        android:paddingStart="@dimen/dialog_margin"
+        android:paddingEnd="@dimen/dialog_margin"
+        android:layout_gravity="bottom"
+        android:background="?android:windowBackground"
+        android:layout_marginTop="50dp"
+        android:nestedScrollingEnabled="true"
+        android:visibility="invisible"
+        ds:cell_font_size="8sp"
+        ds:data_array="@array/gender"
+        ds:picker_box_view="@id/picker_box_gender"
+        ds:scale_animations="true"
+        ds:scale_animations_factor="1.3"
+        ds:scale_animations_pivot_center="false"
+        ds:selected_index="2"
+        ds:selector_background="@drawable/ds_selector" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dialog_margin"
+        android:layout_gravity="center"
+        android:text="@string/filter_gender"/>
+
+    <com.ramotion.directselect.DSDefaultPickerBox
+        android:id="@+id/picker_box_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="@dimen/dialog_margin"
+        android:layout_marginEnd="@dimen/dialog_margin"
+        android:background="@drawable/ds_pricker_box"
+        android:padding="15dp" >
+
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center|end"
+            android:src="@drawable/scroll"/>
+
+    </com.ramotion.directselect.DSDefaultPickerBox>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/start_search_button"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/filter_show_results"
+        android:textColor="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center|bottom" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_top_text"
+        android:layout_gravity="bottom|center"
+        android:text="Designed by ramotion.com"
+        android:textColor="@color/grey"
+        android:textSize="11sp" />
+
+</FrameLayout>

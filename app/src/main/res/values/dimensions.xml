@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CharacterList -->
+
+
+    <!-- CharacterCard -->
+    <dimen name="card_margin">20dp</dimen>
+
+    <!-- ____Other____ -->
+
+    <!-- CardView -->
+    <dimen name="corner">14dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+
+    <!-- Bottom sheet dialog -->
+    <dimen name="bottom_sheet_dialog_height">400dp</dimen>
+    <dimen name="bottom_bg_height">350dp</dimen>
+    <dimen name="dialog_margin">20dp</dimen>
+
+    <!-- Text -->
+    <dimen name="margin_text">20dp</dimen>
+    <dimen name="margin_top_text">10dp</dimen>
+    <dimen name="title_1">35sp</dimen>
+    <dimen name="title_2">25sp</dimen>
+    <dimen name="title_3">20sp</dimen>
+    <dimen name="side_margin">10dp</dimen>
+
+    <!-- _____________ -->
+
+</resources>

@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Rick&amp;Morty Viewer</string>
+    <string name="search">Search</string>
+    <string name="error">An error occurred while data loading</string>
+    <string name="not_found">No results…</string>
+
+    <string name="fish">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+
+    <!-- Character list -->
+    <string name="species">Species:</string>
+    <string name="gender">Gender:</string>
+
+    <string name="character_card_fragment_arg_1">character_id</string>
+
+    <!-- Filter bottom sheet dialog -->
+    <string name="filter_show_results">Show results</string>
+    <string name="filter_title">Filter</string>
+    <string name="filter_status">Status:</string>
+    <string name="filter_gender">Gender:</string>
+    <string name="episodes">Episodes</string>
+    <string name="more_info">More info</string>
+    <string name="try_again">Try again</string>
+
+
+    <string-array name="status">
+        <item>no</item>
+        <item>dead</item>
+        <item>alive</item>
+        <item>unknown</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>no</item>
+        <item>genderless</item>
+        <item>male</item>
+        <item>female</item>
+        <item>unknown</item>
+    </string-array>
+
+</resources>

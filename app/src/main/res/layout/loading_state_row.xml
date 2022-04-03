@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/main_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp" />
+
+    <LinearLayout
+        android:id="@+id/end_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_text"
+            android:textAlignment="center"
+            android:text="endddddddddddddd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/error_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_text"
+            android:textAlignment="center"
+            android:text="@string/error"/>
+
+        <ImageButton
+            android:id="@+id/button_retry"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="@dimen/margin_top_text"
+            android:layout_gravity="center"
+            android:background="@drawable/retry_button"
+            android:src="@drawable/ic_baseline_refresh_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

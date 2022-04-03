@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Presentation.CharactersList.CharactersListFragment">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginLeft="17dp"
+        android:elevation="@dimen/card_elevation"
+        android:theme="@style/Theme.RickMortyViewer.ToolBar">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="70dp"
+            app:queryHint="@string/search"
+            app:iconifiedByDefault="false"
+            app:closeIcon="@drawable/ic_baseline_close_24"
+            app:searchIcon="@drawable/ic_baseline_search_24"/>
+
+        <ImageView
+            android:id="@+id/fiter_button"
+            android:layout_width="22dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_filter_alt_24"
+            android:layout_marginEnd="35dp"
+            android:layout_gravity="end"/>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ProgressBar
+        android:id="@+id/progress"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/error_wrapper"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="230dp"
+            android:layout_height="230dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="115dp"
+            android:src="@drawable/foreground"/>
+
+        <TextView
+            android:id="@+id/error_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            tools:text="@string/error"/>
+
+        <ImageButton
+            android:id="@+id/retry_button"
+            android:layout_marginTop="45dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:background="@drawable/retry_button"
+            android:src="@drawable/ic_baseline_refresh_24"/>
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/content_wrapper"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.stanford.simplebouncyrecycler.views.SimpleBouncyRecyclerView
+        android:id="@+id/characters_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/character_list_row" />
+
+    </FrameLayout>
+
+</LinearLayout>

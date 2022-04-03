@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/default_nav_graph"
+    app:startDestination="@id/charactersListFragment">
+
+    <fragment
+        android:id="@+id/charactersListFragment"
+        android:name="ru.alek.rickmortyviewer.Presentation.CharactersList.CharactersListFragment"
+        android:label="characters_list_fragment"
+        tools:layout="@layout/characters_list_fragment" >
+        <action
+            android:id="@+id/action_charactersListFragment_to_favouritesListFragment"
+            app:destination="@id/characterCardFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/characterCardFragment"
+        android:name="ru.alek.rickmortyviewer.Presentation.CharacterCard.CharacterCardFragment"
+        android:label="favourites_list_fragment"
+        tools:layout="@layout/character_card_fragment">
+        <argument
+            android:name="@string/character_card_fragment_arg_1"
+            app:argType="integer" />
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="https://rickmortyviewer.com/character/{character_id}" />
+    </dialog>
+</navigation>
