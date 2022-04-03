@@ -17,4 +17,4 @@
 
 Application is designed using ~~dirty~~ clean architecture
 
-<img src="https://user-images.githubusercontent.com/56515163/161433908-c9795811-156a-4d18-a983-18722444c5c4.jpg" height = "1000">
+<img src="https://user-images.githubusercontent.com/56515163/161436981-0232857e-8f0b-4ffd-87ca-3ad9c769fda1.png" height = "1000">
