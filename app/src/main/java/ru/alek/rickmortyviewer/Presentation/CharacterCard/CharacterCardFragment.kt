@@ -103,7 +103,7 @@ class CharacterCardFragment : DialogFragment() {
                 requireArguments().getInt(
                     resources.getString(R.string.character_card_fragment_arg_1)
                 )
-            ).collectLatest {
+            ).observe(viewLifecycleOwner) {
                 adapter.submitData(viewLifecycleOwner.lifecycle, it)
             }
 

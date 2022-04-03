@@ -28,7 +28,7 @@ class MainRepoImpl(private val api: ApiService): MainRepository {
             initialLoadSize = 2
         ),
         pagingSourceFactory = { CharacterCardPagingSource(api, id) }
-        ).flow
+        ).liveData
 
     override suspend fun getEpisodesByIds(ids: String): Response<List<EpisodeModel.Episode>>? {
         return try {

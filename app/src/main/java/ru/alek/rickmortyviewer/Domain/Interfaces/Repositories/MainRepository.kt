@@ -12,7 +12,7 @@ import ru.alek.rickmortyviewer.Domain.Entities.SimpleFilter
 interface MainRepository {
 
     fun getCharacters(string: SimpleFilter): LiveData<PagingData<SimpleCharacterModel>>
-    fun getFullCharactersList(id: Int): Flow<PagingData<CharacterModel>>
+    fun getFullCharactersList(id: Int): LiveData<PagingData<CharacterModel>>
     suspend fun getEpisodesByIds(ids: String): Response<List<EpisodeModel.Episode>>?
 
 }
