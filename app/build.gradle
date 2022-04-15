@@ -66,6 +66,9 @@ dependencies {
     implementation 'com.ramotion.directselect:direct-select:0.1.1'
     implementation "com.stanford:simplebouncyrecycler:0.0.5"
 
+    //DI
+    //implementation 'com.google.dagger:dagger:2.31.'
+
     //Persistent
     /*implementation("androidx.room:room-guava:2.4.2")
     /testImplementation("androidx.room:room-testing:2.4.2")

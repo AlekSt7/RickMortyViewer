@@ -3,6 +3,7 @@ package ru.alek.rickmortyviewer.Presentation.CharacterCard
 import androidx.lifecycle.*
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.launch
+import ru.alek.rickmortyviewer.App
 import ru.alek.rickmortyviewer.Data.Network.NetworkHandler
 import ru.alek.rickmortyviewer.Domain.Entities.CharacterModel
 import ru.alek.rickmortyviewer.Domain.Entities.EpisodeModel
@@ -12,7 +13,7 @@ import ru.alek.rickmortyviewer.еData.Repositories.MainRepoImpl
 
 class CharacterCardFragmentViewModel : ViewModel() {
 
-    private val mainRepo = MainRepoImpl(NetworkHandler.api)
+    private val mainRepo = MainRepoImpl(App.instance.getApi())
     private val getCharacterUseCase = GetCharacterUseCase(mainRepo)
     private val getEpisodesUseCase = GetEpisodesUseCase(mainRepo)
 

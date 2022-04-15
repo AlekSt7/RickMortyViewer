@@ -2,17 +2,14 @@ package ru.alek.rickmortyviewer.Presentation.CharactersList
 
 import androidx.lifecycle.*
 import androidx.paging.cachedIn
-import kotlinx.coroutines.*
-import kotlinx.coroutines.flow.debounce
-import kotlinx.coroutines.flow.flatMapLatest
-import ru.alek.rickmortyviewer.Data.Network.NetworkHandler
+import ru.alek.rickmortyviewer.App
 import ru.alek.rickmortyviewer.Domain.Entities.SimpleFilter
 import ru.alek.rickmortyviewer.Domain.UseCases.GetCharactersUseCase
 import ru.alek.rickmortyviewer.еData.Repositories.MainRepoImpl
 
 class CharactersListViewModel : ViewModel() {
 
-    private val mainRepo = MainRepoImpl(NetworkHandler.api)
+    private val mainRepo = MainRepoImpl(App.instance.getApi())
     private val getCharactersUseCase = GetCharactersUseCase(mainRepo)
     private val stateFIlter = MutableLiveData(SimpleFilter())
 

@@ -10,6 +10,6 @@
         android:id="@+id/character_slider"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:listitem="@layout/character_card"/>
+        tools:listitem="@layout/character_card" />
 
 </RelativeLayout>

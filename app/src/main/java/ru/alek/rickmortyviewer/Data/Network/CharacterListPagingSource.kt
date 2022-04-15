@@ -3,6 +3,7 @@ package ru.alek.rickmortyviewer.Data.Network
 import android.util.Log
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
+import kotlinx.coroutines.withContext
 import retrofit2.HttpException
 import retrofit2.Response
 import ru.alek.rickmortyviewer.Data.Network.Interfaces.Api.ApiService
@@ -19,7 +20,6 @@ class CharacterListPagingSource(private val apiService: ApiService, private val 
     }
 
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, SimpleCharacterModel> {
-
         val pageIndex = params.key ?: 1
 
         return try {
