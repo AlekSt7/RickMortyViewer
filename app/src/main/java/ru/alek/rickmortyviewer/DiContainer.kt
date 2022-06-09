@@ -18,7 +18,10 @@ object DiContainer {
     private val getEpisodesUseCase = GetEpisodesUseCase(repository)
     private val filter = SimpleFilter()
 
-    fun injectCharacterCardViewModel() = CharacterCardViewModelFactory(getCharacterUseCase, getEpisodesUseCase)
-    fun injectCharactersListViewModel() = CharactersListViewModelFactory(getCharactersUseCase, filter)
+    private val c = CharacterCardViewModelFactory(getCharacterUseCase, getEpisodesUseCase)
+    private val cc = CharactersListViewModelFactory(getCharactersUseCase, filter)
+
+    fun injectCharacterCardViewModel() = c
+    fun injectCharactersListViewModel() = cc
 
 }

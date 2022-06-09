@@ -34,7 +34,7 @@ class CharactersListFragment : Fragment(R.layout.characters_list_fragment) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        viewModelFactory = DiContainer.injectCharactersListViewModel()
+        //viewModelFactory = DiContainer.injectCharactersListViewModel()
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
@@ -165,7 +165,7 @@ class CharactersListFragment : Fragment(R.layout.characters_list_fragment) {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProvider(this, viewModelFactory)[CharactersListViewModel::class.java]
+        viewModel = ViewModelProvider(this, DiContainer.injectCharactersListViewModel())[CharactersListViewModel::class.java]
         observeData()
     }
 
@@ -178,6 +178,7 @@ class CharactersListFragment : Fragment(R.layout.characters_list_fragment) {
         }
     }
 
+    //from YouTube :D
     private fun handleScrollingToTopWhenSearching(adapter: ListAdapter) = lifecycleScope.launch {
         // list should be scrolled to the 1st item (index = 0) if data has been reloaded:
         // (prev state = Loading, current state = NotLoading)

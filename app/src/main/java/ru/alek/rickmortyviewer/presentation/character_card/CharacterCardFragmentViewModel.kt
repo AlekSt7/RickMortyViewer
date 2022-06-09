@@ -1,5 +1,6 @@
 package ru.alek.rickmortyviewer.presentation.character_card
 
+import android.util.Log
 import androidx.lifecycle.*
 import kotlinx.coroutines.flow.*
 import ru.alek.rickmortyviewer.App
