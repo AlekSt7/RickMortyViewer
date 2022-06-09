@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/charactersListFragment"
-        android:name="ru.alek.rickmortyviewer.Presentation.CharactersList.CharactersListFragment"
+        android:name="ru.alek.rickmortyviewer.presentation.characters_list.CharactersListFragment"
         android:label="characters_list_fragment"
         tools:layout="@layout/characters_list_fragment" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <dialog
         android:id="@+id/characterCardFragment"
-        android:name="ru.alek.rickmortyviewer.Presentation.CharacterCard.CharacterCardFragment"
+        android:name="ru.alek.rickmortyviewer.presentation.character_card.CharacterCardFragment"
         android:label="favourites_list_fragment"
         tools:layout="@layout/character_card_fragment">
         <argument

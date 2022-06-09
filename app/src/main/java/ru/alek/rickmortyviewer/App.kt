@@ -5,7 +5,7 @@ import android.content.Context
 import android.net.ConnectivityManager
 import android.net.NetworkCapabilities
 import android.os.Build
-import ru.alek.rickmortyviewer.Data.Network.NetworkHandler
+import ru.alek.rickmortyviewer.data.network.NetworkHandler
 
 class App: Application() {
 
@@ -16,7 +16,7 @@ class App: Application() {
 
         fun hasConnection() = instance.isNetworkConnected()
 
-        val api by lazy { NetworkHandler.api }
+        private val api by lazy { NetworkHandler.api }
 
     }
 
@@ -25,6 +25,8 @@ class App: Application() {
         instance = this
     }
 
+
+    //from StackOverflow
     private fun isNetworkConnected(): Boolean {
         var result = false
         val connectivityManager = this.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager

@@ -127,7 +127,7 @@
                     android:padding="@dimen/card_margin"
                     android:layout_gravity="center"/>
 
-            <ru.alek.rickmortyviewer.Presentation.CharacterCard.recyclerviews.EpisodesRecyclerView
+            <ru.alek.rickmortyviewer.presentation.character_card.recyclerviews.EpisodesRecyclerView
                 android:id="@+id/episodes"
                 android:visibility="gone"
                 android:layout_width="match_parent"
